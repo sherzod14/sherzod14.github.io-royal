@@ -1,0 +1,83 @@
+.logo {
+	width: 3vw;
+	height: 3vw;
+	margin:0 5vw;
+}
+.bgImg {
+	height: 100vh;
+	opacity: 0.5;
+}
+.carousel {
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+.text {
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 99;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+.header-title {
+	text-transform: uppercase;
+	font-size: 5vmax;
+}
+.content {
+	font-size: 1.5vmax;
+	margin: 5vw;
+	text-align: center;
+}
+.btn {
+	width: 13vw;
+	height: 3vw;
+	margin: 0.5vw;
+}
+
+.nav-title {
+	text-align: center;
+	margin: 0;
+}
+.row {
+	margin-bottom: 2vw;
+}
+.card {
+	text-align: center;
+}
+.title-link {
+	color:#fff;
+	margin: 1vw 4vw;
+	font-size: 1.4em;
+}
+.title-link:hover {
+	color: #d7dde5;
+
+}
+
+.footer {
+	background-color: #252628;
+	color:#fff;
+	padding: 5vw;
+}
+
+h3 {
+	font-size: 1.2vmax;
+}
+.center {
+	display: flex;
+	text-align: left;
+	align-items:center;
+}
+.fas {
+	font-size: 1.5vmax;
+	margin: 1vw 2vw;
+}
+span {
+	font-weight: bold;
+}
